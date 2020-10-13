@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 
 export default function App() {
   const [count, setCount] = useState(0);
-  const [userId, setUserId] = useState(1);
+  const [userId, setUserId] = useState(0);
   const [userDataLoaded, setUserDataLoaded] = useState(false);
 
   function increaseCount() {
