@@ -130,9 +130,6 @@ export default function App() {
           activeOpacity={0.7}
         >
           <Text style={{fontSize: 40, color: '#000', textAlign: 'center'}}>
-            {userId}
-          </Text> 
-          <Text style={{fontSize: 40, color: '#000', textAlign: 'center'}}>
             {getDate(new Date())}
           </Text>
         </TouchableOpacity>
